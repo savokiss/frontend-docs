@@ -14,10 +14,34 @@ export default defineConfig({
       {
         text: 'Network',
         items: [
-          { text: 'HTTP Questions', link: '/network/http' },
+          { text: 'HTTP 常见问题', link: '/network/http' },
           { text: 'HTTP 缓存', link: '/network/catch' },
         ]
-      }
+      },
+      {
+        text: 'JavaScript',
+        items: [
+          { text: 'JS 基础', link: '/javascript/basic' },
+        ]
+      },
+      {
+        text: 'CSS',
+        items: [
+          { text: 'CSS 基础', link: '/css/basic' },
+        ]
+      },
+      {
+        text: 'Vue',
+        items: [
+          { text: 'Vue 基础', link: '/vue/basic' },
+        ]
+      },
+      {
+        text: 'React',
+        items: [
+          { text: 'React 基础', link: '/react/basic' },
+        ]
+      },
     ],
 
     socialLinks: [
