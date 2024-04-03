@@ -15,8 +15,7 @@ export default defineConfig({
         text: 'Network',
         items: [
           { text: 'HTTP Questions', link: '/network/http' },
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'HTTP 缓存', link: '/network/catch' },
         ]
       }
     ],
